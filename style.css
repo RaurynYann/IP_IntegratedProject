@@ -11,6 +11,7 @@
     padding: 20px;
     background: #e3e6f3;
     box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.4);
+    position: sticky;
 }
 
 .navbar ul{
@@ -40,7 +41,7 @@
     height: 100%;
     border-radius: 30px;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -56,3 +57,9 @@
     top: 50%;
     opacity: 1;
 }
+
+.content{
+    background-image: url(images/bg.png);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
