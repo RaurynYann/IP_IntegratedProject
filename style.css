@@ -73,3 +73,35 @@
     justify-content: center;
     flex-direction: column;
 }
+.content1{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e3e6f3;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box h6{
+    padding: 9px;
+    line-height: 1;
+    border-radius: 1;
+    color: #777;
+    background-color: white;
+    font-size: 20px;
+}
+
