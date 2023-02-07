@@ -74,7 +74,27 @@
     justify-content: center;
     flex-direction: column;
 }
+<<<<<<< HEAD
 .categories{
+=======
+
+.shopnow{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#252525;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.shopnow:hover{
+    background:navy;
+}
+
+.text{
+>>>>>>> 8581c1df89e4993dd792eb017470ad030ad4ccfa
     text-align: center;
     padding-top: 30px;
     font-size: 25px;
