@@ -110,3 +110,54 @@
     font-size: 25px;
 }
 
+.featured{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.content2{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.pro{
+    width: 270px;
+    padding: 20px 12px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
+    border: 1px solid #e3e6f3;
+    border-radius: 2px;
+    margin: 15px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.pro img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.pro h4{
+    padding: 1px;
+    border-radius: 1;
+    color: #777;
+    font-size: 20px;
+}
+.star{
+    font-size: 15px;
+    padding: 1px;
+    border-radius: 1;
+    color: #777;
+}
+.pro p{
+    padding: 1px;
+    border-radius: 1;
+    color: #777;
+    font-size: 20px;
+}
+
