@@ -12,6 +12,7 @@
     background: #e3e6f3;
     box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.4);
     position: sticky;
+    top: 0;
 }
 
 .navbar ul{
@@ -73,6 +74,11 @@
     justify-content: center;
     flex-direction: column;
 }
+.text{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
 .content1{
     padding: 40px 80px;
     display: flex;
@@ -84,24 +90,27 @@
 .box{
     width: 300px;
     text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    padding: 20px 12px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
     border: 1px solid #e3e6f3;
-    border-radius: 4px;
+    border-radius: 2px;
     margin: 15px 0;
 }
 
 .box img{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .box h6{
-    padding: 9px;
-    line-height: 1;
+    padding: 1px;
     border-radius: 1;
     color: #777;
     background-color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
+.content2{
+    text-align: center;
+    font-size: 25px;
+}
