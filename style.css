@@ -92,13 +92,10 @@
     background:navy;
 }
 
-.about img{
-    width: 200px;
-}
 .featured{
     text-align: center;
     padding-top: 30px;
-    font-size: 25px;
+    font-size : 25px;
 }
 
 .content2{
