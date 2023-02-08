@@ -15,7 +15,13 @@
 <!--section for navigation bar start here-->
     <div class="header">
         <div class="logo">
-            <img src="""">
+            <img src="images/logo_trans1.png">
+            <script type="text/javascript">
+                functionresizeImage(obj){
+                    obj.width=obj.width>50 && obj.width>obj.height?50:auto;
+                    obj.height=obj.height>50?50:auto;
+                }
+            </script>
         </div>
         <div class="navbar">
             <ul>
@@ -63,6 +69,29 @@
     </div>
     <script src="java.js"></script>
 </body>
+
+<!--section for testing the featured product-->
+<section class="products" id="products">
+    <div class="box-container">
+
+        <div class="box">
+            <span class="label">HOT</span>
+            <div class="image">
+                <img src="images/albulm_red.png" alt="">
+            
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+        </div>
+    
+        <div class="content_p">
+            <h3>MAGIC MAN SILVER VINYL LP</h3>
+            <div class="price">$33.98 USD<span>QUANTITY(LIMIT 4 PER ORDER)</span></div>
+        </div>
+</section>
+<!--section for testing the featured product end-->
 
 <!--section for footer below start here-->
 
