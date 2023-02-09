@@ -227,7 +227,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(200deg,#f3e7e9,#e3eeff);
+    background: linear-gradient(200deg,#f3e7e9,#B9CBE8);
 }
 .container{
     background-color: #fff;
