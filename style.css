@@ -333,7 +333,7 @@ input:focus::placeholder{
     margin-bottom: 4px;
 }
 .box p{
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 2px;
     color: navy;
     text-align: center;
