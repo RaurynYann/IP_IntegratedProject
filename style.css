@@ -17,6 +17,11 @@
 }
 
 /* Navigation Bar */
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
 .navbar ul{
     list-style: none;
 }
