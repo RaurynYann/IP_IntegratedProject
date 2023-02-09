@@ -298,7 +298,7 @@ input:focus::placeholder{
     outline: none;
     border-radius: 8px;
     padding: 13px;
-    color: #e3e6f3;
+    color: #B9CBE8;
     letter-spacing: 2px;
     border: none;
     cursor: pointer;
@@ -339,7 +339,7 @@ input:focus::placeholder{
     text-align: center;
 }
 .box span{
-    color: #e3e6f3;
+    color: #B9CBE8;
 }
 .box img{
     width: 150px;
@@ -350,7 +350,7 @@ input:focus::placeholder{
 .box button{
     margin-top: 3%;
     background-color: #fff;
-    color: #e3e6f3;
+    color: #B9CBE8;
     border: 1px solid #e3e6f3;
     padding: 6px 10px;
     border-radius: 5px;
