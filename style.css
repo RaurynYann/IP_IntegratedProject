@@ -13,13 +13,6 @@
     transition: .2s linear;
 }
 
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    overflow-x: hidden;
-}
-
 section{
     padding:2rem 9%;
 }
@@ -231,8 +224,8 @@ section{
 }
 .container{
     background-color: #fff;
-    width: 640px;
-    height: 415px;
+    width: 1040px;
+    height: 720px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     position: relative;
@@ -240,8 +233,8 @@ section{
 .form{
     position: absolute;
     background-color: #B9CBE8;
-    width: 320px;
-    height: 415px;
+    width: 520px;
+    height: 720px;
     border-radius: 5px;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
     display: flex;
@@ -430,39 +423,6 @@ input:focus::placeholder{
 }
 .pro-detail p{
     line-height: 25px;
-}
-
-/*footer*/
-.footer .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.footer .box-container .box{
-    flex:1 1 25rem;
-}
-
-.footer .box-container .box h3{
-    color:#333;
-    font-size: 2.5rem;
-    padding:1rem 0;
-}
-
-.footer .box-container .box a{
-    display: block;
-    color:#666;
-    font-size: 1.5rem;
-    padding:1rem 0;
-}
-
-.footer .box-container .box a:hover{
-    color:var(--red);
-    text-decoration: underline;
-}
-
-.footer .box-container .box  img{
-    margin-top: 1rem;
 }
 
 /*contact.html*/
