@@ -27,27 +27,29 @@
                 <li><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
         </div>
     </div>
-</body>
-
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>contact </span>us</h1>
-
-    <div class="row">
-
-        <form action="#">
-            <input type="text" placeholder="name" class="box" required>
-            <input type="email" placeholder="email" class="box" required>
-            <input type="number" placeholder="phone number" class="box" required>
-            <textarea name="message and review" class="box" placeholder="Any thing or comment that you want to tell us?" id="msg_and_review" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
-        </form>
-
-        <div class="image">
-            <img src="images/jewellery.webp" alt="">
+    <div class="contact">
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <h2>Send us a message</h2>
+                <div class="fields">
+                    <div class="grp">
+                        <input type="text" class="fname" placeholder="First Name" required>
+                    </div>
+                    <div class="grp">
+                        <input type="text" class="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="grp">
+                        <input type="email" class="email" placeholder="Mail" required>
+                    </div>
+                    <div class="grp">
+                        <input type="number" class="phone" placeholder="phone" required>
+                    </div>
+                    <div class="grp">
+                        <textarea name="message" id="" placeholder="Write your message" required></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="submit-button">
+                </div>
+            </form>
         </div>
-
     </div>
-
-</section>
-
+</body>

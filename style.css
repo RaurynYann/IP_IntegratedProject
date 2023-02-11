@@ -12,11 +12,6 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
-
-section{
-    padding:2rem 9%;
-}
-
 /* Header */
 .header{
     display: flex;
@@ -216,7 +211,7 @@ section{
 }
 /* login Section*/
 .loginpage{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +227,7 @@ section{
 }
 .form{
     position: absolute;
-    background-color: #B9CBE8;
+    background-color: #e3e6f3;
     width: 520px;
     height: 720px;
     border-radius: 5px;
@@ -260,9 +255,9 @@ h1{
     color: #fff;
     letter-spacing: 5px;
 }
-input{
+.form input{
     background-color: transparent;
-    width: 70%;
+    width: 150%;
     color: #fff;
     border: none;
     border-bottom: 1px solid rgba(255,255,255,0.4);
@@ -271,17 +266,19 @@ input{
     margin: 8px 0;
     font-size: 14px;
     letter-spacing: 2px;
-}
-input::placeholder{
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbc3d1, inset -8px -8px 8px #ffffff;}
+
+.form input::placeholder{
     color: #fff;
 }
-input:focus{
+.form input:focus{
     color: navy;
     outline: none;
     border-bottom: 1px solid navy;
     transition: 0.5s;
 }
-input:focus::placeholder{
+.form input:focus::placeholder{
     opacity: 0;
 }
 .form button{
@@ -295,6 +292,7 @@ input:focus::placeholder{
     letter-spacing: 2px;
     border: none;
     cursor: pointer;
+    
 }
 .form button:hover{
     background-color: navy;
@@ -373,12 +371,17 @@ input:focus::placeholder{
     display: flex;
     margin-top: 20px;
     margin-left: 0px;
+    align-items: center;
+    padding: 40px 80px;
 }
 
 .big-img{
     width: 40%;
     margin-top: 40px;
     margin-left: 50px;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 80px;
 }
 .big-img img{
     width: 100%;
@@ -400,7 +403,9 @@ input:focus::placeholder{
     width: 50%;
     padding-top: 24px;
     padding-left: 20px;
+    align-items: center;
 }
+
 .pro-detail h4{
     padding: 20px 0 0;
     font-size: 20px;
@@ -481,54 +486,6 @@ input:focus::placeholder{
     font-size: 13px;
     color: #aaa;
 }
-/*contact.html*/
-.contact .row{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap:1.5rem;
-    align-items: center;
-}
-
-.contact .row form{
-    flex:1 1 40rem;
-    padding:2rem 2.5rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    border:.1rem solid rgba(0,0,0,.1);
-    background: #8d7bdc;
-    border-radius: .5rem;
-}
-
-.contact .row .image{
-    flex:1 1 40rem;
-    width: 500px;
-    height: 800px;
-}
-
-.contact .row .image img{
-    width: 100%;
-}
-
-.contact .row form .box{
-    padding:1rem;
-    font-size: 1.7rem;
-    color:#333;
-    text-transform: none;
-    border:.1rem solid rgba(0,0,0,.1);
-    border-radius: .5rem;
-    margin:.7rem 0;
-    width: 45%;
-}
-
-.contact .row form .box:focus{
-    border-color: var(--red);
-}
-
-.contact .row form textarea{
-    height: 15rem;
-    width:17cm;
-    resize: none;
-}
-
 
 @media (max-width: 1320px){
     .text h2{
