@@ -430,6 +430,80 @@ h1{
     line-height: 25px;
 }
 
+
+/*contact form*/
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.contact-form{
+    width: 65%;
+    padding: 40px 24px 35px 25px;
+    border-radius: 20px;
+    background: #e3e6f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.contact-form h2{
+    text-align: left;
+    margin-left: 23px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.fields{
+    display: table;
+    width: 100%;
+    padding: 15px 5px;
+} 
+.fields input,
+.fields textarea{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 10px 10px 20px 5px;
+    width: 100%;
+}
+.fields textarea{
+    height: 150px;
+    resize: none;
+}
+
+.fields .grp{
+    width: 46%;
+    float: right;
+    padding: 0 30px;
+    margin: 14px 12px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbc3d1, inset -8px -8px 8px #ffffff;
+}
+.fields .grp:nth-last-child(2){
+    width: 96%;
+}
+.submit-button{
+    width: 96%;
+    height: 60px;
+    margin: 0 12px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: .5s;
+}
+.submit-button:hover{
+    background: navy;
+}
 /*footer*/
 .footer{
     padding: 40px 0;
