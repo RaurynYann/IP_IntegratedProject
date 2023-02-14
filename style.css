@@ -171,7 +171,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 60px;
+    padding: 20px 60px 0px 60px;
 }
 
 .pro{
@@ -224,6 +224,7 @@
     border-radius: 75px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     position: relative;
+
 }
 .form{
     position: absolute;
@@ -513,6 +514,7 @@ h1{
 .footer{
     padding: 40px 0;
     background-color: #e3e6f3;
+    margin-top: 20px;
 }
 
 .footer .social{
