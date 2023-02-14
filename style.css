@@ -219,18 +219,18 @@
 }
 .container{
     background-color: #fff;
-    width: 1040px;
-    height: 720px;
-    border-radius: 5px;
+    width: 720px;
+    height: 520px;
+    border-radius: 75px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     position: relative;
 }
 .form{
     position: absolute;
     background-color: #e3e6f3;
-    width: 520px;
-    height: 720px;
-    border-radius: 5px;
+    width: 360px;
+    height: 520px;
+    border-radius: 75px;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
     display: flex;
     justify-content: center;
@@ -382,9 +382,13 @@ h1{
     align-items: center;
     gap: 40px;
     padding: 40px 80px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
+    border: 1px solid #e3e6f3;
+    border-radius: 20px;
 }
 .big-img img{
     width: 100%;
+    border-radius: 20px;
 }
 .small-img{
     display: flex;
@@ -392,6 +396,7 @@ h1{
 }
 .small-img img{
     width: 100%;
+    border-radius: 20px;
 }
 
 .small-img-col{
@@ -401,13 +406,12 @@ h1{
 
 .pro-detail{
     width: 50%;
-    padding-top: 24px;
-    padding-left: 20px;
+    padding-left: 30px;
     align-items: center;
 }
 
 .pro-detail h4{
-    padding: 20px 0 0;
+    padding: 20px 0 0 ;
     font-size: 20px;
 }
 
@@ -436,7 +440,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .contact-form{
     width: 65%;
