@@ -652,7 +652,7 @@ h1{
     }
 
     .pro{
-        width: 250px;
+        min-width: 240px;
     }
 }
 
@@ -667,7 +667,8 @@ h1{
         font-size: 17px;
     }
     .pro{
-        width: 210px;
+        min-width: 210px;
+        padding: 15px 10px;
     }
 }
 
@@ -687,11 +688,12 @@ h1{
     }
     
     .pro{
-        width: 180px;
+        min-width: 200px;
+        padding: 12px 9px;
     }
 }
 
-@media (max-width: 920px){
+@media (max-width: 950px){
     .navbar ul li{
         padding: 10px 18px;
     }
@@ -700,12 +702,6 @@ h1{
     }
     .content1{
         grid-template-columns: 1fr;
-    }
-
-    .about img{
-        width: 100%;
-        height: auto;
-        padding: 20px 80px 0 80px;
     }
     .text{
         text-align: center;
@@ -718,7 +714,7 @@ h1{
         font-size: 18px;
     }
     .pro{
-        width: 270px;
+        min-width: 300px;
         margin: 0 20px 20px;
     }
     .content2{
@@ -732,13 +728,24 @@ h1{
 }
 
 @media (max-width: 850px){
-
+    .navbar ul li{
+        padding: 10px 13px;
+    }
     .pro{
-        width: 230px;
+        min-width: 270px;
         margin: 15px;
     }
 }
-
+@media (max-width: 720px){
+        .navbar ul li{
+        padding: 10px 10px;
+    }
+    .pro{
+        min-width: 400px;
+        padding: 20px 15px;
+    }
+    
+}
 @media (max-width: 650px){
     .content1{
         padding: 40px;
@@ -746,11 +753,15 @@ h1{
     .text{
         padding: 0 20px;
     }
+    .pro{
+        min-width: 380px;
+        padding: 20px 15px;
+    }
 }
 
 @media (max-width: 639px){
     .pro{
-        width: 300px;
+        min-width: 350px;
     }
 }
 @media (max-width: 555px){
@@ -779,5 +790,8 @@ h1{
     .featured h2{
         font-size: 30px;
     }
+    .pro{
+        min-width: 320px;
+    }
 }
-
+@media (max-width: 555px)
