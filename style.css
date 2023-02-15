@@ -434,6 +434,36 @@ h1{
     font-size: 22px;
     padding-top: 15px;
 }
+.pro-detail .colours{
+    display: flex;
+}
+.colour-var{
+    display: flex;
+}
+.colour{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    background-color: rgb(232, 226, 226);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.colour2{
+    background-color: rgb(232, 182, 108);
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.colour3{
+    background-color: #cfa194;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
 .pro-detail p{
     line-height: 25px;
 }
