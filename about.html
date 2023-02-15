@@ -64,6 +64,14 @@
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        $(".abt-img img").css({
+            width: (100 + scroll/5) + "%"
+        })
+    })
+</script>
     <!--footer section start here-->
     <div class="footer">
         <div class="social">
