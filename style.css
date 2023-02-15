@@ -373,21 +373,20 @@ h1{
 .pdetail{
     display: flex;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 80px;
     align-items: center;
-    padding: 40px 80px;
+    padding: 10px 20px;
 }
 
 .big-img{
     width: 40%;
-    margin-top: 40px;
-    margin-left: 50px;
     align-items: center;
     gap: 40px;
-    padding: 40px 80px;
+    padding: 20px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
     border: 1px solid #e3e6f3;
     border-radius: 20px;
+    margin-right: 60px;
 }
 .big-img img{
     width: 100%;

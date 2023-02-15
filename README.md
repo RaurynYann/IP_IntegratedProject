@@ -21,7 +21,7 @@ In this section, I will go over the different parts of my project, and describe 
 - Feature 3 - allow customer to comment about the feedback after they have purchased the products.
 - Feature 4 - have contact info at the bottom so that the user can found it easily.
 - Feature 5 - user also can contact us for review and message us if they have some questions to ask or anything to feedback to us.
-- Feature 6 - allow user to ass their favourite product to the wish list.
+- Feature 6 - allow user to add their favourite product to the wish list.
 - Feature 7 - have 3D model for the user to have a look what the accessories looks like in more reality ways.
 - Feature 8 - have a sign-up and login page for the user to get in their account.
 - Feature 9 - have the detail infomation for the accessories.
