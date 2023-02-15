@@ -176,14 +176,18 @@
 }
 
 .pro{
-    width: 270px;
+    width: 23%;
     padding: 20px 12px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     border: 1px solid #e3e6f3;
     border-radius: 20px;
     margin: 15px 0;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
+    min-width: 250px;
+}
+.pro:hover{
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
 }
 
 .pro img{
@@ -193,23 +197,20 @@
 }
 
 .pro h4{
-    padding: 1px;
+    padding: 0px 1px 5px 1px;
     border-radius: 1;
     color: #777;
     font-size: 20px;
-}
-.star{
-    font-size: 15px;
-    padding: 1px;
-    border-radius: 1;
-    color: #777;
+    letter-spacing: 1px;
 }
 .pro p{
     padding: 1px;
     border-radius: 1;
     color: #777;
     font-size: 20px;
+    letter-spacing: 1px;
 }
+
 /* login Section*/
 .loginpage{
     height: 90vh;
