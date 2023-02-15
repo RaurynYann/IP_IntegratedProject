@@ -26,6 +26,43 @@ In this section, I will go over the different parts of my project, and describe 
 - Feature 8 - have a sign-up and login page for the user to get in their account.
 - Feature 9 - have the detail infomation for the accessories.
 - Feature 10 - user can custom their avatar themself.
+- Feature 11 - user can get in the catogery they want by just 
+
+## Features Left to Implement
+- Feature 1 - prices can be switched to various other national currencies at will.
+- Feature 2 - let the webite to be multi languages so that every country's customer can use this website.
+- Feature 3 - checkout function
+
+## Technologies Used
+- Google(https://www.google.com.sg/)
+   + The project uses **Google** to get more infomation about how to code a functional website.
+
+- cdnjs(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css)
+   + The project uses **cdnjs** to get the icon from it.
+  
+- W3C Validator(https://validator.w3.org/#validate_by_upload+with_options)
+   + The project uses **W3C Validator** to check whether have error in the html file or not.
+
+- Jigsaw Validator(https://jigsaw.w3.org/css-validator/)
+   + The project uses **Jigsaw Validator** to check whether have error in the css file or not.
+
+
+## Testing
+From this section, is going to describing about my testing process such as:
+
+1. Contact Form:
+   1. Go to the 'Contact page
+   2. Try to submit an empty form, and verify that an error message about the required fields appears.
+   3. Try to type in word to a number box and make sure the box did not fill in.
+   4. Try to type in different typr of input to the form and submit it to check whether can submit in or not.
+
+2. Navegation bar:
+   1. Try to click to every button to check whether it can link to the correct page or not.
+   2. Also try to click the quick link below to check whether it can link to correct link or page ot not.
+
+3. Product detail:
+   1. Try to make sure the click on function will work as click on the picture the picture will appear on top in a bigger size.
+   2. Try the add to cart function will work or not.
 
 
 
