@@ -74,7 +74,11 @@
     opacity: 1;
 }
 
-
+span{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
 
 .menu{
     display: none;
@@ -382,7 +386,7 @@ h1{
     width: 40%;
     align-items: center;
     gap: 40px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
     border: 1px solid #e3e6f3;
     border-radius: 20px;
@@ -413,7 +417,6 @@ h1{
 }
 
 .pro-detail h4{
-    padding: 20px 0 0 ;
     font-size: 20px;
 }
 
@@ -421,23 +424,21 @@ h1{
     font-size: 26px;
     padding-bottom: 5px;
 }
-.pro-detail button{
+.add-cart{
     background-color: #e3e6f3;
     color: #fff;
     font-size: 12px;
     padding: 7px 12px;
     border-radius: 15px;
-    margin-top: 10px;
 }
 .pro-detail h5{
     font-size: 22px;
     padding-top: 15px;
 }
-.pro-detail .colours{
-    display: flex;
-}
+
 .colour-var{
     display: flex;
+    margin-bottom: 15px;
 }
 
 .colour1{
@@ -706,38 +707,7 @@ h1{
 .checkout a:hover {
 	background-color: navy;
 }
-@media screen and (max-width: 700px) {
-	.content h3 {
-		margin-bottom: 15px;
-	}
-	.content h4 {
-		margin-bottom: 20px;
-	}
-	.btn2 {
-		display: none;
-	}
-	.box {
-		height: 150px;
-	}
-	.box img {
-		height: 150px;
-		width: 200px;
-	}
-}
-@media screen and (max-width: 900px) {
-	.project {
-		flex-direction: column;
-	}
-	.right-bar {
-		margin-left: 0;
-		margin-bottom: 20px;
-	}
-}
-@media screen and (max-width: 1250px) {
-	.wrapper {
-		max-width: 95%;
-	}
-}
+
 /*footer*/
 .footer{
     padding: 40px 0;
@@ -809,6 +779,9 @@ h1{
     .pro{
         min-width: 240px;
     }
+    .wrapper {
+		max-width: 95%;
+	}
 }
 
 @media (max-width: 1200px){
@@ -825,7 +798,37 @@ h1{
         min-width: 210px;
         padding: 15px 10px;
     }
+    .pro-detail h2{
+        font-size: 23px;
+    }
+    .pro-detail h4{
+        font-size: 19px;
+    }
+    .pro-detail h5{
+        font-size: 18px;
+    }
+    .pro-detail p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
 }
+@media (max-width: 1014px){
+    .contact-form{
+        width: 70%
+    }
+    .fields .grp{
+        width: 43%;
+        margin: 14px 25px 14px 0px;
+    }
+    .fields .grp:nth-last-child(2){
+        width: 92%;
+    }
+    .submit-button{
+        margin: 0px;
+    }
+}
+    
 
 @media (max-width: 1000px){
     .navbar ul li{
@@ -845,6 +848,15 @@ h1{
     .pro{
         min-width: 200px;
         padding: 12px 9px;
+    }
+    .checkout h5{
+        font-size: 23px;
+    }
+    .checkout p{
+        font-size: 15px;
+    }
+    .checkout a{
+        font-size: 15px;
     }
 }
 
@@ -880,6 +892,26 @@ h1{
         height: auto;
         padding: 20px 60px 0 60px;
     }
+    .pdetail{
+        margin-left: 10px;
+    }
+    .big-img{
+        width: 55%;
+        margin-right: 10px;
+    }
+    .project {
+		flex-direction: column;
+	}
+	.checkout {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+    .checkout p{
+        font-size: 18px;
+    }
+    .checkout a{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 850px){
@@ -903,6 +935,19 @@ h1{
     }
     .box img{
         margin: 20px 0;
+    }
+    .pdetail{
+        display: flex;
+        flex-direction: column;
+    }
+    .big-img{
+        width: 60%;
+        margin-right: 0px;
+    }
+    .pro-detail{
+        margin-top: 20px;
+        width: 60%;
+        padding-left: 0px;
     }
 }
 @media (max-width: 720px){
@@ -943,6 +988,40 @@ h1{
     h1{
         margin-bottom: 13px;
     }
+    .content h3 {
+		margin-bottom: 15px;
+	}
+	.content h4 {
+		margin-bottom: 20px;
+	}
+	.btn2 {
+		display: none;
+	}
+	.box {
+		height: 150px;
+	}
+	.box img {
+		height: 150px;
+		width: 200px;
+	}
+    .small-img img{
+        border-radius: 15px;
+    }
+    .fields .grp{
+        padding: 0 20px;
+    }
+    .fields input,
+    .fields textarea{
+        padding: 15px 10px 15px 5px;
+        font-size: 16px;
+    }
+    .contact-form{
+        height: 60vh;
+    }
+    .contact-form h2{
+        font-size: 25px;
+    }
+
 }
 @media (max-width: 650px){
     .content1{
@@ -994,8 +1073,11 @@ h1{
         color: black;
         font-size: 20px;
     }
-    li#sp-bag{
+    li#cart{
         display: none;
+    }
+    .big-img{
+        padding: 15px 15px 0 15px;
     }
 }
 
@@ -1003,6 +1085,32 @@ h1{
     .pro{
         min-width: 350px;
     }
+    .big-img{
+        width: 70%;
+    }
+    .pro-detail{
+        width: 70%;
+    }
+}
+@media (max-width: 595px){
+    .fields{
+        padding: 15px;
+    }
+    .contact-form{
+        height: 70vh;
+    }
+    .contact-form h2{
+        font-size: 22px;
+    }
+    .fields .grp{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .fields .grp:nth-last-child(2){
+        width: 100%;
+    }
+
 }
 @media (max-width: 555px){
     .content{
@@ -1032,6 +1140,13 @@ h1{
     }
     .pro{
         min-width: 320px;
+    }
+    .big-img{
+        width: 80%;
+        padding: 10px 10px 0 10px;
+    }
+    .pro-detail{
+        width: 80%;
     }
     .container{
         width: 380px;
@@ -1075,5 +1190,57 @@ h1{
     .container{
         top: 0;
         height: 100px;
+    }
+}
+
+@media (max-width: 500px){
+    .pro-detail h2{
+        font-size: 20px;
+    }
+    .pro-detail h4{
+        font-size: 15px;
+    }
+    .pro-detail h5{
+        font-size: 15px;
+    }
+    .pro-detail p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .small-img img{
+        border-radius: 10px;
+    }
+    .contact-form{
+        padding: 20px;
+        height: 55vh;
+    }
+    .contact-form h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .fields{
+        padding: 5px;
+    }
+    .fields .grp{
+        margin-bottom: 10px;
+    }
+    .fields textarea{
+        height: 100px;
+        font-size: 13px;
+    }
+    .fields input{
+        padding: 10px;
+        font-size: 13px;
+    }
+    .submit-button{
+        height: 40px;
+    }
+}
+
+@media (max-width: 360px){
+    .pro{
+        min-width: 280px;
     }
 }
