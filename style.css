@@ -74,6 +74,17 @@
     opacity: 1;
 }
 
+
+
+.menu{
+    display: none;
+    align-items: center;
+}
+
+a#close{
+    display: none;
+}
+
 /* Content */
 .content{
     background-image: url(images/bg.png);
@@ -320,24 +331,13 @@ h1{
 }
 .box h2{
     color: navy;
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 4px;
 }
-.box p{
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: navy;
-    text-align: center;
-}
-.box span{
-    color: #B9CBE8;
-}
 .box img{
     width: 150px;
-    opacity: 0.9;
     margin: 30px 0;
 }
 .box button{
@@ -892,14 +892,13 @@ h1{
     }
 }
 @media (max-width: 720px){
-        .navbar ul li{
+    .navbar ul li{
         padding: 10px 10px;
     }
     .pro{
         min-width: 400px;
         padding: 20px 15px;
     }
-    
 }
 @media (max-width: 650px){
     .content1{
@@ -911,6 +910,48 @@ h1{
     .pro{
         min-width: 380px;
         padding: 20px 15px;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        width: 200px;
+        background-color: #B9CBE8;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 70px 0 0 10px;
+        transition: 0.3s;
+    }
+    .navbar ul.active{
+        right: 0px;
+    }
+    .navbar ul li{
+        margin-bottom: 10px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    .menu i{
+        color: #777;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    a#close{
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: black;
+        font-size: 20px;
+    }
+    li#sp-bag{
+        display: none;
     }
 }
 
@@ -948,5 +989,3 @@ h1{
     .pro{
         min-width: 320px;
     }
-}
-@media (max-width: 555px)
