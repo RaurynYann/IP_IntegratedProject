@@ -890,6 +890,20 @@ h1{
         min-width: 270px;
         margin: 15px;
     }
+    .container{
+        width: 600px;
+        height: 420px;
+    }
+    .form{
+        width: 300px;
+        height: 420px;
+    }
+    .form input{
+        width: 120%;
+    }
+    .box img{
+        margin: 20px 0;
+    }
 }
 @media (max-width: 720px){
     .navbar ul li{
@@ -898,6 +912,36 @@ h1{
     .pro{
         min-width: 400px;
         padding: 20px 15px;
+    }
+    .container{
+        width: 500px;
+        height: 350px;
+        border-radius: 50px;
+    }
+    .form{
+        width: 250px;
+        height: 350px;
+        border-radius: 50px;
+    }
+    .form input{
+        width: 95%;
+        padding: 7px 0;
+    }
+    .form button{
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 15px;
+    }
+    .box img{
+        width: 100px;
+        margin: 10px 0;
+    }
+    .box p{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    h1{
+        margin-bottom: 13px;
     }
 }
 @media (max-width: 650px){
@@ -989,3 +1033,47 @@ h1{
     .pro{
         min-width: 320px;
     }
+    .container{
+        width: 380px;
+        height: 350px;
+        border-radius: 50px;
+    }
+    .form{
+        width: 190px;
+        height: 350px;
+        border-radius: 50px;
+    }
+    .form input{
+        width: 70%;
+        padding: 7px 0;
+    }
+    .form button{
+        width: 60%;
+        margin-top: 20px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .box button{
+        font-size: 10px;
+        
+    }
+    .box img{
+        width: 100px;
+        margin: 10px 0;
+    }
+    .box p{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .box h2{
+        font-size: 17px;
+    }
+    h1{
+        margin-bottom: 13px;
+    }
+    .container{
+        top: 0;
+        height: 100px;
+    }
+}
