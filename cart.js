@@ -1,4 +1,4 @@
-YiTing, [2/18/2023 2:08 AM]
+
 let cartItems = JSON.parse(localStorage.getItem('cartItems'));
 let cartItemsContainer = document.querySelector('.cart-items');
 let orderSubtotalElement = document.querySelector('#order-subtotal');
