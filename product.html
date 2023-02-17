@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IP Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-
-<body> 
-<!--section for navigation bar start here-->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">
         <div class="logo">
             <img href="index.html" src="images/logo_trans1.png">
@@ -33,129 +32,53 @@
             <i id="bar" class="fa-solid fa-bars"></i>
         </div>
     </div>
-    <div class="featured">
-        <h2>Products</h2>
+    <div class="searchpage">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Necklaces')">
+          Necklaces
+        </button>
+        <button class="button-value" onclick="filterProduct('Pendants')">
+          Pendants
+        </button>
+        <button class="button-value" onclick="filterProduct('Rings')">
+          Rings
+        </button>
+        <button class="button-value" onclick="filterProduct('Earrings')">
+          Earrings
+        </button>
+      </div>
+      <div id="products"></div>
     </div>
-    <div class="content2">
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="" href="pdetail.html">
-            <h4>Necklace</h4>
-            <p>price</p>
+        <!--footer section start here-->
+        <div class="footer">
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-snapchat-ghost"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+            <p class="copyright">
+                Snowman @ 2023
+            </p>
         </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Pendant</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Earring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Ring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Necklace</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Earring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Ring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Necklace</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Pendant</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Earring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Ring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Necklace</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Pendant</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Earring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Ring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Necklace</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Pendant</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Earring</h4>
-            <p>price</p>
-        </div>
-        <div class="pro">
-            <img src="images/jewellery.webp" alt="">
-            <h4>Ring</h4>
-            <p>price</p>
-        </div>  
-    </div>
-    <!--footer section start here-->
-    <div class="footer">
-        <div class="social">
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-snapchat-ghost"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-facebook"></i></a>
-        </div>
-        <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-        </ul>
-        <p class="copyright">
-            Snowman @ 2023
-        </p>
-    </div>
+    <!-- Script -->
     <script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
     <script src="menu.js"></script>
-</body>
+    <script src="filter.js"></script>
+  </body>
