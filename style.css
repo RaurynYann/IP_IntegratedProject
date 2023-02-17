@@ -226,6 +226,82 @@ a#close{
     letter-spacing: 1px;
 }
 
+/*Product Page*/
+.searchpage{
+    width: 95%;
+    margin: 0 auto;
+}
+#search-container {
+    margin: 16px 0;
+}
+#search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #777;
+    padding: 16px 5px;
+}
+#search-container input:focus {
+    border-bottom-color: #B9CBE8;
+}
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #B9CBE8;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.button-value {
+    border: 2px solid #B9CBE8;
+    padding: 16px 35px;
+    border-radius: 60px;
+    background-color: transparent;
+    color: #B9CBE8;
+    cursor: pointer;
+}
+.active {
+    background-color: #B9CBE8;
+    color: #ffffff;
+}
+#products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 60px;
+    padding: 32px 0;
+}
+  .card {
+    background-color: #ffffff;
+    max-width: 1440px;
+    margin-top: 16px;
+    padding: 16px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    border: 1px solid #e3e6f3;
+    border-radius: 20px;
+  }
+  .image-container {
+    text-align: center;
+  }
+  .image-container img {
+    min-width: 100%;
+    object-fit: contain;
+    height: 240px;
+    border-radius: 20px;
+  }
+  .product-container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+  .product-container h5 {
+    font-size: 20px;
+  }
+  .product-container h6 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .hide {
+    display: none;
+  }
+
 /* login Section*/
 .loginpage{
     height: 90vh;
@@ -234,10 +310,10 @@ a#close{
     align-items: center;
     background: linear-gradient(200deg,#f3e7e9,#B9CBE8);
 }
-.container{
+.form-container{
     background-color: #fff;
     width: 720px;
-    height: 520px;
+    height: 500px;
     border-radius: 75px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     position: relative;
@@ -247,7 +323,7 @@ a#close{
     position: absolute;
     background-color: #e3e6f3;
     width: 360px;
-    height: 520px;
+    height: 500px;
     border-radius: 75px;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
     display: flex;
@@ -359,20 +435,7 @@ h1{
     background-color: navy;
     color: #fff;
 }
-/* Pagination Section*/
-.pagination{
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
 
-.pagination a{
-    background-color: #e3e6f3;
-    padding: 15px 20px;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 600;
-}
 /* Product Details Section*/
 .pdetail{
     display: flex;
@@ -584,6 +647,7 @@ h1{
 .submit-button:hover{
     background: navy;
 }
+/*shopping bag*/
 .wrapper {
 	max-width: 1240px;
 	margin: 0 auto;
@@ -669,10 +733,15 @@ h1{
 	padding: 5px;
 	text-align: center;
 }
-
+.cart-items p{
+    font-size: 20px;
+    font-weight: 600;
+    margin:50px 0 50px 0;
+    text-align: center;
+}
 .checkout {
 	flex: 25%;
-	margin-left: 20px;
+    margin-bottom: 20px;
 	padding: 20px;
 	height: 300px;
 	border-radius: 5px;
@@ -849,6 +918,9 @@ h1{
         min-width: 200px;
         padding: 12px 9px;
     }
+    #products {
+        grid-column-gap: 30px;
+    }
     .checkout h5{
         font-size: 23px;
     }
@@ -912,6 +984,15 @@ h1{
     .checkout a{
         font-size: 18px;
     }
+    #products{
+        grid-template-columns: auto auto;
+    }
+    .fields .grp{
+        margin-top: 0px;
+    }
+    .contact-form h2{
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 850px){
@@ -922,7 +1003,7 @@ h1{
         min-width: 270px;
         margin: 15px;
     }
-    .container{
+    .form-container{
         width: 600px;
         height: 420px;
     }
@@ -949,6 +1030,9 @@ h1{
         width: 60%;
         padding-left: 0px;
     }
+    .contact-form{
+        height: 85vh;
+    }
 }
 @media (max-width: 720px){
     .navbar ul li{
@@ -958,7 +1042,28 @@ h1{
         min-width: 400px;
         padding: 20px 15px;
     }
-    .container{
+    #products{
+        grid-template-columns: 1fr,1fr;
+    }
+    .image-container img {
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+    .product-container h5{
+        font-size: 15px;
+    }
+    .product-container h6{
+        font-size: 13px;
+    }
+    .card {
+        max-width: 300px;
+        margin-top: 1em;
+    }
+    .button-value{
+        padding: 15px 25px;
+    }
+    .form-container{
         width: 500px;
         height: 350px;
         border-radius: 50px;
@@ -976,10 +1081,6 @@ h1{
         margin-top: 20px;
         padding: 8px;
         border-radius: 15px;
-    }
-    .box img{
-        width: 100px;
-        margin: 10px 0;
     }
     .box p{
         font-size: 12px;
@@ -1002,7 +1103,8 @@ h1{
 	}
 	.box img {
 		height: 150px;
-		width: 200px;
+		width: 120px;
+        margin: 10px 0;
 	}
     .small-img img{
         border-radius: 15px;
@@ -1015,11 +1117,8 @@ h1{
         padding: 15px 10px 15px 5px;
         font-size: 16px;
     }
-    .contact-form{
-        height: 60vh;
-    }
     .contact-form h2{
-        font-size: 25px;
+        font-size: 22px;
     }
 
 }
@@ -1097,20 +1196,19 @@ h1{
         padding: 15px;
     }
     .contact-form{
-        height: 70vh;
+        height: 60vh;
     }
     .contact-form h2{
-        font-size: 22px;
+        font-size: 20px;
     }
     .fields .grp{
         width: 100%;
         margin: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .fields .grp:nth-last-child(2){
         width: 100%;
     }
-
 }
 @media (max-width: 555px){
     .content{
@@ -1148,7 +1246,14 @@ h1{
     .pro-detail{
         width: 80%;
     }
-    .container{
+    #search-container button{
+        padding: 10px 15px 10px 15px;
+    }
+    .button-value{
+        margin-top: 10px;
+        padding: 10px 15px 10px 15px;
+    }
+    .form-container{
         width: 380px;
         height: 350px;
         border-radius: 50px;
@@ -1194,6 +1299,9 @@ h1{
 }
 
 @media (max-width: 500px){
+    .card{
+        padding: 10px 10px 15px 10px
+    }
     .pro-detail h2{
         font-size: 20px;
     }
@@ -1212,7 +1320,6 @@ h1{
     }
     .contact-form{
         padding: 20px;
-        height: 55vh;
     }
     .contact-form h2{
         font-size: 20px;
@@ -1232,15 +1339,83 @@ h1{
     }
     .fields input{
         padding: 10px;
-        font-size: 13px;
+        font-size: 12px;
     }
     .submit-button{
         height: 40px;
     }
 }
 
+@media (max-width: 420px){
+    .form-container {
+        width: 90%;
+        height: 500px;
+        border-radius: 50px;
+      }
+    .form {
+        width: 100%;
+        height: 250px;
+        border-radius: 50px;
+        box-shadow: none;
+        margin-top: 250px;
+    }
+    .register-box form, .login-box form {
+        width: 80%;
+    }
+    .box {
+        width: 100%;
+        top: 10%;
+    }
+    .box.left {
+        margin-top: 320px;
+        text-align: center;
+        left: 0%;
+        
+    }
+    .box.right {
+        text-align: center;
+        right: 0%;
+        margin-top: 90px;
+    }
+    h1{
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    .box img {
+        width: 100px;
+        margin: 0px;
+    }
+    .login-box form{
+        width: 100%;
+    }
+    .register-box form{
+        width: 100%;
+    }
+    .form input{
+        width: 100%;
+        margin: 5px;
+    }
+    .form button{
+        margin-top: 5px;
+    }
+    #products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 280px;
+    }
+}
 @media (max-width: 360px){
     .pro{
         min-width: 280px;
     }
+    .card{
+        width: 220px;
+    }
+    .form input{
+        font-size: 10px;
+    }
 }
+
