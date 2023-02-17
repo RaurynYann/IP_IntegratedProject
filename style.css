@@ -488,6 +488,10 @@ h1{
     text-align: center;
     letter-spacing: 1px;
 }
+
+.abt-grp1 img{
+    align-items: center;
+}
 .abt-grp2{
     padding: 40px 80px;
     background: #e3e6f3;
