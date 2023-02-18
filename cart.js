@@ -1,4 +1,3 @@
-
 let cartItems = JSON.parse(localStorage.getItem('cartItems'));
 let cartItemsContainer = document.querySelector('.cart-items');
 let orderSubtotalElement = document.querySelector('#order-subtotal');
@@ -27,7 +26,7 @@ if (cartItems && cartItems.length > 0) {
       let productPrice = parseFloat(product.price);
 
       let newPrice = productPrice * count;
-      priceElement.innerText = Price: $${newPrice.toFixed(2)};
+      priceElement.innerText = `Price: $${newPrice.toFixed(2)}`;
 
     } else {
       // If there is no cart item for this product yet, create a new one
@@ -70,15 +69,15 @@ if (cartItems && cartItems.length > 0) {
     // Calculate the order subtotal by multiplying the product price with its count in the cart
     let productPrice = parseFloat(product.price);
     if (isNaN(productPrice)) {
-      console.error(Invalid price for product: ${product.name});
+      console.error(`Invalid price for product: ${product.name}`);
       continue;
     }
     orderSubtotal += productPrice * product.quantity;
   }
 
   // Display the order subtotal and total
-  orderSubtotalElement.innerText = $${orderSubtotal.toFixed(2)};
-  orderTotalElement.innerText = $${orderSubtotal.toFixed(2)};
+  orderSubtotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
+  orderTotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
   // Add functionality to the trash icons, plus buttons, and minus buttons
   let trashIcons = document.querySelectorAll('.fa-trash');
   for (let i = 0; i < trashIcons.length; i++) {
@@ -100,25 +99,25 @@ if (cartItems && cartItems.length > 0) {
     let countElement = plusButton.parentNode.querySelector('.count');
     let count = parseInt(countElement.innerText);
 
-YiTing, [2/18/2023 2:08 AM]
-plusButton.addEventListener('click', function() {
+    plusButton.addEventListener('click', function() {
       count++;
       countElement.innerText = count;
       alert('Product quantity updated.');
         let productPrice = parseFloat(plusButton.parentNode.parentNode.querySelector('h4').textContent.split('$')[1]);
         orderSubtotal += productPrice;
-        orderSubtotalElement.innerText = $${orderSubtotal.toFixed(2)};
-        orderTotalElement.innerText = $${orderSubtotal.toFixed(2)};
+        orderSubtotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
+        orderTotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
       });
   
       minusButton.addEventListener('click', function() {
         if (count > 1) {
           count--;
           countElement.innerText = count;
+          alert('Product quantity updated.');
           let productPrice = parseFloat(minusButton.parentNode.parentNode.querySelector('h4').textContent.split('$')[1]);
           orderSubtotal -= productPrice;
-          orderSubtotalElement.innerText = $${orderSubtotal.toFixed(2)};
-          orderTotalElement.innerText = $${orderSubtotal.toFixed(2)};
+          orderSubtotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
+          orderTotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
         }
       });
   

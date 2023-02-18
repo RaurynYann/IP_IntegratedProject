@@ -34,59 +34,18 @@
         </div>
     </div>
     <div class="wrapper">
-		<h2>Your Shopping Bag</h2>
-		<div class="project">
-			<div class="shop">
-				<div class="box1">
-					<img src="images/1.jfif">
-					<div class="bagcontent">
-						<h3>Product</h3>
-						<h4>Price: $</h4>
-						<p class="btn-area"><i class="fa fa-trash"></i></p>
-                        <div class="quantity">
-                            <div class="btn">+</div>
-                            <div class="count">2</div>
-                            <div class="btn">-</div>
-                        </div>
-					</div>
-				</div>
-				<div class="box1">
-					<img src="images/1.jfif">
-					<div class="bagcontent">
-						<h3 class="bag-item">Product</h3>
-						<h4 class="bag">Price: $</h4>
-						<p class="btn-area"><i class="fa fa-trash"></i></p>
-                        <div class="quantity">
-                            <div class="btn">+</div>
-                            <div class="count">2</div>
-                            <div class="btn">-</div>
-                        </div>
-					</div>
-				</div>
-				<div class="box1">
-					<img src="images/1.jfif">
-					<div class="bagcontent">
-						<h3>Product</h3>
-						<h4>Price: </h4>
-						<div class="quantity">
-                            <div class="btn">+</div>
-                            <div class="count">2</div>
-                            <div class="btn">-</div>
-                        </div>
-						<p class="btn-area"><i class="fa fa-trash"></i></p>
-					</div>
-				</div>
-			</div>
-			<div class="checkout">
-                <h5>Order Summary</h5>
-				<p><span>Order Subtotal</span> <span>$120</span></p>
-				<hr>
-				<p><span>Shipping</span> <span>$15</span></p>
-				<hr>
-				<p><span>Total</span> <span>$135</span> </p><a href="#">Checkout</a>
-			</div>
-		</div>
-	</div>
+        <h2>Your Shopping Bag</h2>
+        <div class="cart-items" class="shop" ></div>
+        <div class="checkout">
+          <h5>Order Summary</h5>
+          <p><span>Order Subtotal</span> <span id="order-subtotal">$0.00</span></p>
+          <hr>
+          <p><span>Shipping</span> <span id="shipping">$0.00</span></p>
+          <hr>
+          <p><span>Total</span> <span id="order-total">$0.00</span> </p>
+          <a href="#">Checkout</a>
+        </div>
+      </div>
     <!--footer section start here-->
     <div class="footer">
         <div class="social">
@@ -108,4 +67,5 @@
     </div>
     <script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
     <script src="menu.js"></script>
+    <script src="cart.js"></script>
 </body>
