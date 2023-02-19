@@ -268,7 +268,7 @@ a#close{
     cursor: pointer;
 }
 .active {
-    background-color: #e4e4e4;
+    background-color: #cccccd;
     color: #ffffff;
 }
 #products {
@@ -568,13 +568,9 @@ cursor: pointer;
 .how-to p{
     font-size: 20px;
 }
-<<<<<<< HEAD
-
-=======
 .how-to img{
     width: 3%;
 }
->>>>>>> 556c59803c2f726695bdadcf5bbb959b3f844283
 /*contact form*/
 .contact{
     display: flex;
