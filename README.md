@@ -39,6 +39,7 @@ In this section, I will go over the different parts of my project, and describe 
 
 - cdnjs(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css)
    + The project uses **cdnjs** to get the icon from it.
+
   
 - W3C Validator(https://validator.w3.org/#validate_by_upload+with_options)
    + The project uses **W3C Validator** to check whether have error in the html file or not.
@@ -63,19 +64,67 @@ From this section, is going to describing about my testing process such as:
 3. Product detail:
    1. Try to make sure the click on function will work as click on the picture the picture will appear on top in a bigger size.
    2. Try the add to cart function will work or not.
+   3. Click on the color will change to another color.
 
+4. Shop now:
+    1. Try to make sure when click on the shop now button will link to the product page.
 
+5. More about: 
+   1. when click on the more about button will link to about page
 
+6. Search bar:
+   1. when typr the product name the search function will work or not.
+   2. when click on the product category will appear the correct product or not.
 
+7. add  to cart:
+   1. when click on the add to bag button the product will appear on the shopping cart page or not.
 
+## Credits
+- Plenty (https://www.plenty.my/pages/jewelry-care)
+  + Jewelry care
+- Swarovski (https://www.swarovski.com/en-MY/c-01/Categories/Jewelry/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55BorjuhfmQPqGOtZtb17SCWr4hT0iLO6q622dGX54-dFsjH-wf5pYaAikjEALw_wcB&gclsrc=aw.ds)
+  + Website design
+- Pandora (https://sg.pandora.net/en/gifts/?topnavigation=true&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55bwW3Pu-CihequeRQVeYOELfVT8Fa5DXi-SPmDLpisqnwM227gUTsaAneiEALw_wcB&gclsrc=aw.ds#position=top&src=categorySearch)
+  + website design
+- Picrew (https://picrew.me/)
+  + Avatar customisation
 
-
-
-
-
-
-
-
+## Media
+The photos used in this website were obtained from:
+-[label](images/abtbg2.jpg)
+-[label](images/snowman.jpeg)
+-[label](images/Screenshot_20230218_120038.png)
+-[label](images/ring_d_sil.png)
+-[label](images/ring_d_rose.png)
+-[label](images/ring_d_gold.png)
+-[label](images/nut_sil.png)
+-[label](images/nut_rose.png)
+-[label](images/nut_gold.png)
+-[label](images/love_sil.png)
+-[label](images/love_rose.png)
+-[label](images/love_gld.png)
+-[label](images/nor_gold.png)
+-[label](images/nor_rose.png)
+-[label](images/nor_sil.png)
+-[label](images/logo_trans1.png)
+-[label](images/homebg.jpg)
+-[label](images/daisy_pendant.png)
+-[label](images/daisy_ear.png)
+-[label](images/ca_ring_ssil.png)
+-[label](images/ca_ring_rose.png)
+-[label](images/ca_ring_gold.png)
+-[label](images/ca_pen_rose.png)
+-[label](images/ca_pen_gold.png)
+-[label](images/ca_pen_sil.png)
+-[label](images/ca_ear_silver_side.png)
+-[label](images/ca_ear_silver_front.png)
+-[label](images/ca_ear_silver_back.png)
+-[label](images/ca_ear_rose_front.png)
+-[label](images/ca_ear_rose_back.png)
+-[label](images/ca_ear_rose_side.png)
+-[label](images/ca_ear_gold_back.png)
+-[label](images/ca_ear_gold_frond.png)
+-[label](images/ca_ear_gold_side.png)
 
 
 
