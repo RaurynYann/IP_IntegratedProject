@@ -1374,8 +1374,8 @@ color: #1c1c1c;
     a#close{
         display: flex;
         position: absolute;
-        top: 10px;
-        left: 20px;
+        top: -340px;
+        left: 0;
         color: black;
         font-size: 20px;
     }
