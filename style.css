@@ -60,7 +60,7 @@
 
 .navbar ul li a::after{
     content: "";
-    background: navy;
+    background: rgb(29, 29, 33);
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -105,7 +105,7 @@ a#close{
     background-position: center;
     height: 90vh;
     max-width: 100%;
-    color: navy;
+    color: rgb(29, 29, 33);
     padding: 0 80px;
     text-align: center;
     display: flex;
@@ -139,7 +139,7 @@ a#close{
 }
 
 .shopnow:hover{
-    background:navy;
+    background:rgb(29, 29, 33);
 }
 
 /* About Section */
@@ -160,7 +160,7 @@ a#close{
 }
 
 .text span{
-    color: navy;
+    color: rgb(29, 29, 33);
 }
 .text p{
     padding: 10px 0;
@@ -202,7 +202,7 @@ a#close{
     width: 23%;
     padding: 20px 12px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    border: 1px solid #e3e6f3;
+    border: 1px solid #eeeff5;
     border-radius: 20px;
     margin: 15px 0;
     text-align: center;
@@ -249,26 +249,26 @@ a#close{
     padding: 16px 5px;
 }
 #search-container input:focus {
-    border-bottom-color: #B9CBE8;
+    border-bottom-color: #9b9c9e;
 }
 #search-container button {
     padding: 1em 2em;
     margin-left: 1em;
-    background-color: #B9CBE8;
+    background-color: #b2b2b4;
     color: #ffffff;
     border-radius: 5px;
     margin-top: 8px;
 }
 .button-value {
-    border: 2px solid #B9CBE8;
+    border: 2px solid #cccccd;
     padding: 16px 35px;
     border-radius: 60px;
     background-color: transparent;
-    color: #B9CBE8;
+    color: #303133;
     cursor: pointer;
 }
 .active {
-    background-color: #B9CBE8;
+    background-color: #adafb2;
     color: #ffffff;
 }
 #products {
@@ -283,7 +283,7 @@ a#close{
     margin-top: 16px;
     padding: 16px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    border: 1px solid #e3e6f3;
+    border: 1px solid #dbdbdb;
     border-radius: 20px;
   }
   .image-container {
@@ -329,7 +329,7 @@ a#close{
 }
 .form{
     position: absolute;
-    background-color: #e3e6f3;
+    background-color: #c7c7c7;
     width: 360px;
     height: 500px;
     border-radius: 75px;
@@ -375,9 +375,9 @@ a#close{
     color: #fff;
 }
 .form input:focus{
-    color: navy;
+    color: rgb(29, 29, 33);
     outline: none;
-    border-bottom: 1px solid navy;
+    border-bottom: 1px solid rgb(29, 29, 33);
     transition: 0.5s;
 }
 .form input:focus::placeholder{
@@ -390,14 +390,14 @@ a#close{
     outline: none;
     border-radius: 8px;
     padding: 13px;
-    color: #B9CBE8;
+    color: #9c9c9c;
     letter-spacing: 2px;
     border: none;
     cursor: pointer;
     
 }
 .form button:hover{
-    background-color: navy;
+    background-color: rgb(29, 29, 33);
     color: #f6f6f6;
     transition: background-color 0.5s ease;
 }
@@ -418,7 +418,7 @@ a#close{
     right: -2%;
 }
 .box h2{
-    color: navy;
+    color: rgb(29, 29, 33);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -431,8 +431,8 @@ a#close{
 .box button{
     margin-top: 3%;
     background-color: #fff;
-    color: #B9CBE8;
-    border: 1px solid #e3e6f3;
+    color: #9b9c9e;
+    border: 1px solid #c7c8cc;
     padding: 6px 10px;
     border-radius: 5px;
     letter-spacing: 1px;
@@ -440,7 +440,7 @@ a#close{
     cursor: pointer;
 }
 .box button:hover{
-    background-color: navy;
+    background-color: rgb(29, 29, 33);
     color: #fff;
 }
 
@@ -459,7 +459,7 @@ a#close{
     gap: 40px;
     padding: 20px 20px 0 20px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
-    border: 1px solid #e3e6f3;
+    border: 1px solid #a2a3a5;
     border-radius: 20px;
     margin-right: 60px;
 }
@@ -498,7 +498,7 @@ a#close{
     padding-bottom: 5px;
 }
 .add-cart{
-    background-color: #e3e6f3;
+    background-color: #bdbdbd;
     color: #fff;
     font-size: 12px;
     padding: 7px 12px;
@@ -592,7 +592,7 @@ a#close{
 
 .abt-grp2{
     padding: 40px 80px;
-    background: #e3e6f3;
+    background: #b9b9ba;
     text-align: center;
 }
 
@@ -640,7 +640,7 @@ a#close{
     width: 65%;
     padding: 40px 24px 35px 25px;
     border-radius: 20px;
-    background: #e3e6f3;
+    background: #c8c9cb;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -699,11 +699,11 @@ a#close{
     color: #555;
     background-color: #e3e6f3;
     text-align: center;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    box-shadow: 3px 3px 8px #555454, -3px -3px 8px #ffffff;
     transition: .5s;
 }
 .submit-button:hover{
-    background: navy;
+    background: rgb(29, 29, 33);
 }
 /*shopping bag*/
 .wrapper {
@@ -821,7 +821,7 @@ a#close{
 }
 
 .checkout a {
-	background-color: #B9CBE8;
+	background-color: #57595c;
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -832,13 +832,13 @@ a#close{
     border-radius: 20px;
 }
 .checkout a:hover {
-	background-color: navy;
+	background-color: rgb(29, 29, 33);
 }
 
 /*footer*/
 .footer{
     padding: 40px 0;
-    background-color: #e3e6f3;
+    background-color: #d7d7d7;
 }
 
 .footer .social{
@@ -1232,7 +1232,7 @@ a#close{
         right: -200px;
         height: 100vh;
         width: 200px;
-        background-color: #B9CBE8;
+        background-color: #525253;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 70px 0 0 10px;
         transition: 0.3s;
