@@ -9,8 +9,16 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
+}
+#loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 /* Header */
 .header{
@@ -91,7 +99,7 @@ a#close{
 
 /* Content */
 .content{
-    background-image: url(images/bg.png);
+    background-image: url(images/homebg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -113,7 +121,7 @@ a#close{
 .content h1{
     font-size: 65px;
     padding-bottom: 10px;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Shop Now Button */
@@ -342,7 +350,7 @@ a#close{
     display: none;
     transition: 0.5s;
 }
-h1{
+.form h1{
     text-align: center;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -464,7 +472,9 @@ h1{
     justify-content: space-between;
 }
 .small-img img{
-    width: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;      
     border-radius: 20px;
 }
 
@@ -538,12 +548,34 @@ h1{
     overflow: hidden;
     position: relative;
 }
-.abt-img img{
+
+.abt-img img {
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
+  }
+.abt-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.abt-text h1{
+    font-size: 60px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.abt-grp1[data-scroll], .abt-grp2[data-scroll], .abt-grp3[data-scroll] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transition-delay: 0.1s;
+}
+  
+.abt-grp1[data-scroll].is-visible, .abt-grp2[data-scroll].is-visible, .abt-grp3[data-scroll].is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .abt-grp1{
@@ -554,8 +586,7 @@ h1{
 }
 
 .abt-grp1 img{
-    height: 30%;
-    width: 30%;
+    width: 80%;
     align-items: center;
 }
 
@@ -566,8 +597,7 @@ h1{
 }
 
 .abt-grp2 img{
-    height: 30%;
-    width: 30%;
+    width: 80%;
     align-items: center;
 }
 .abt-grp3{
@@ -576,13 +606,26 @@ h1{
     text-align: center;
 }
 .story h2{
-
+    font-size: 45px;
+}
+.story h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+.story p{
+    font-size: 20px;
 }
 .metals h2{
-
+    font-size: 45px;
+}
+.metals p{
+    font-size: 20px;
 }
 .how-to h2{
-
+    font-size: 45px;
+}
+.how-to p{
+    font-size: 20px;
 }
 /*contact form*/
 .contact{
@@ -616,6 +659,7 @@ h1{
     width: 100%;
     padding: 15px 5px;
 } 
+
 .fields input,
 .fields textarea{
     border: none;
@@ -652,7 +696,8 @@ h1{
     font-weight: 700;
     cursor: pointer;
     outline: none;
-    color: #fff;
+    color: #555;
+    background-color: #e3e6f3;
     text-align: center;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
@@ -893,6 +938,11 @@ h1{
         font-size: 15px;
         line-height: 20px;
     }
+    
+    .small-img img {
+        width: 75px;
+        height: 75px;
+    }
 
 }
 @media (max-width: 1014px){
@@ -943,6 +993,7 @@ h1{
     .checkout a{
         font-size: 15px;
     }
+
 }
 
 @media (max-width: 950px){
@@ -1046,6 +1097,31 @@ h1{
     .contact-form{
         height: 85vh;
     }
+    .story h2{
+        font-size: 35px;
+    }
+    .story h4{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .story p{
+        font-size: 15px;
+    }
+    .metals h2{
+        font-size: 35px;
+    }
+    .metals p{
+        font-size: 15px;
+    }
+    .how-to h2{
+        font-size: 35px;
+    }
+    .how-to p{
+        font-size: 15px;
+    }
+    .small-img img {
+        width: 100px;
+        height: 100px;
 }
 @media (max-width: 720px){
     .navbar ul li{
@@ -1191,6 +1267,14 @@ h1{
     .big-img{
         padding: 15px 15px 0 15px;
     }
+    .abt-grp1,
+    .abt-grp2,
+    .abt-grp3{
+        padding: 30px 60px;
+    }
+    .abt-text h1 {
+        font-size: 45px;
+    }
 }
 
 @media (max-width: 639px){
@@ -1221,6 +1305,14 @@ h1{
     }
     .fields .grp:nth-last-child(2){
         width: 100%;
+    }
+    .story h4{
+        font-size: 20px;
+    }
+    .metals p,
+    .how-to p,
+    .story p{
+        font-size: 12px;
     }
 }
 @media (max-width: 555px){
@@ -1309,6 +1401,10 @@ h1{
         top: 0;
         height: 100px;
     }
+    .small-img img {
+        width: 75px;
+        height: 75px;
+    }
 }
 
 @media (max-width: 500px){
@@ -1356,6 +1452,10 @@ h1{
     }
     .submit-button{
         height: 40px;
+    }
+    .small-img img {
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -1419,6 +1519,20 @@ h1{
     .card{
         width: 280px;
     }
+    .abt-grp1,
+    .abt-grp2,
+    .abt-grp3{
+        padding: 40px;
+    }
+    .story h2,
+    .metals h2,
+    .how-to h2{
+        font-size: 30px;
+    }
+    .small-img img {
+        width: 32px;
+        height: 32px;
+    }
 }
 @media (max-width: 360px){
     .pro{
@@ -1429,6 +1543,9 @@ h1{
     }
     .form input{
         font-size: 10px;
+    }
+    .abt-grp1{
+        padding-top: 0px;
     }
 }
 

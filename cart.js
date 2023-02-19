@@ -113,6 +113,7 @@ if (cartItems && cartItems.length > 0) {
         if (count > 1) {
           count--;
           countElement.innerText = count;
+          alert('Product quantity updated.');
           let productPrice = parseFloat(minusButton.parentNode.parentNode.querySelector('h4').textContent.split('$')[1]);
           orderSubtotal -= productPrice;
           orderSubtotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
