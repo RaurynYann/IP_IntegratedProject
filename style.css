@@ -1828,3 +1828,7 @@ color: #1c1c1c;
 .wrapper a:hover {
     color: #fd028c
 }
+
+.mem_img{
+    right: 50%;
+}
