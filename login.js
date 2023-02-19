@@ -5,19 +5,19 @@ let register_box = document.getElementsByClassName('register-box')[0];
 let login_box = document.getElementsByClassName('login-box')[0];
 
 register.addEventListener('click', () => {
-  form.style.transform = 'translateY(-100%)';
+  form.style.transform = 'translateX(100%)';
   login_box.classList.add('hidden');
   register_box.classList.remove('hidden');
 });
 
 login.addEventListener('click', () => {
-  form.style.transform = 'translateY(0%)';
+  form.style.transform = 'translateX(0%)';
   register_box.classList.add('hidden');
   login_box.classList.remove('hidden');
 });
 
 if (window.matchMedia('(max-width: 420px)').matches) {
-  form.style.transform = 'translateY(100%)';
+  form.style.transform = 'translateX(100%)';
 } else {
   form.style.transform = 'translateX(0%)';
 }
