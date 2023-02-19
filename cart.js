@@ -7,14 +7,11 @@ if (cartItems && cartItems.length > 0) {
   let orderSubtotal = 0;
   let cartItemElements = {};
 
-  // Loop through the cart items and display them in the cart view
   for (let i = 0; i < cartItems.length; i++) {
     let product = cartItems[i];
 
-    // Create a unique key for the cart item based on the product name
     let cartItemKey = product.name;
 
-    // If there is already a cart item for this product, update its quantity
     if (cartItemKey in cartItemElements) {
       let cartItemElement = cartItemElements[cartItemKey];
       let countElement = cartItemElement.querySelector('.count');
@@ -29,7 +26,6 @@ if (cartItems && cartItems.length > 0) {
       priceElement.innerText = `Price: $${newPrice.toFixed(2)}`;
 
     } else {
-      // If there is no cart item for this product yet, create a new one
       let cartItem = document.createElement('div');
       cartItem.classList.add('box1');
       cartItem.innerHTML = `
@@ -47,10 +43,8 @@ if (cartItems && cartItems.length > 0) {
       `;
       cartItemsContainer.appendChild(cartItem);
 
-      // Store a reference to the cart item element for this product
       cartItemElements[cartItemKey] = cartItem;
 
-      // Add event listener to quantity input field
       let countElement = cartItem.querySelector('.count');
       countElement.addEventListener('input', function() {
         let count = parseInt(countElement.innerText);
@@ -61,12 +55,10 @@ if (cartItems && cartItems.length > 0) {
         localStorage.setItem('cartItems', JSON.stringify(cartItems));
       });
 
-      // Update quantity in local storage
       product.quantity = 1;
       localStorage.setItem('cartItems', JSON.stringify(cartItems));
     }
 
-    // Calculate the order subtotal by multiplying the product price with its count in the cart
     let productPrice = parseFloat(product.price);
     if (isNaN(productPrice)) {
       console.error(`Invalid price for product: ${product.name}`);
@@ -81,16 +73,17 @@ if (cartItems && cartItems.length > 0) {
   let checkoutButton = document.querySelector('.checkout a');
 
   checkoutButton.addEventListener('click', function() {
-  // Clear the cart items in local storage and the cart view
+  // Clear the cart items
   localStorage.removeItem('cartItems');
   let cartItemsContainer = document.querySelector('.cart-items');
   cartItemsContainer.innerHTML = '';
-  
-  // Display a success message to the user
+  // Clear the order subtotal and total
+  orderSubtotalElement.innerText = '$0.00';
+  orderTotalElement.innerText = '$0.00';
+  // Display a success message 
   alert('Payment was successful. Thank you for your purchase!');
 });
 
-  // Add functionality to the trash icons, plus buttons, and minus buttons
   let trashIcons = document.querySelectorAll('.fa-trash');
   for (let i = 0; i < trashIcons.length; i++) {
     let trashIcon = trashIcons[i];
