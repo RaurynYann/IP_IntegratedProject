@@ -413,12 +413,12 @@ a#close{
     transform: translateY(-50%);
 }
 .box.left{
-    left: 2%;
+    left: 15%;
     align-items: center;
 }
 .box.right{
     align-items: center;
-    right: 2%;
+    right: 15%;
 }
 .box h2{
     color: rgb(29, 29, 33);
