@@ -411,15 +411,15 @@ a#close{
 }
 .box.left{
     left: 15%;
-    align-items: center;
 }
 .box.right{
+
+
     align-items: center;
-<<<<<<< HEAD
+
     right: 1%;
-=======
+
     right: 15%;
->>>>>>> fdef4bf5e3f9aff20d46a9f45f5b3d2eca995a65
 }
 .box h2{
     color: rgb(29, 29, 33);
