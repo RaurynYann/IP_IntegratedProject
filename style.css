@@ -222,7 +222,7 @@ a#close{
 
 .pro h4{
     padding: 0px 1px 5px 1px;
-    border-radius: 1;
+    border-radius: 1px;
     color: #777;
     font-size: 20px;
     letter-spacing: 1px;
@@ -1252,7 +1252,7 @@ color: #1c1c1c;
         height: 300px;
     }
     #products{
-        grid-template-columns: 1fr,1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .image-container img {
         max-width: 100%;
