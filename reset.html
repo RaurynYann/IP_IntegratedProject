@@ -8,7 +8,7 @@
     <title>IP Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 </head>
 <body>
     <div class="header">
@@ -22,7 +22,7 @@
                 <li><a href="product.html">Product</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li id="sp-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li class="cart" id="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span id="cart-count">0</span></a></li>
                 <a href="#" id="close"><i class="fa fa-times" ></i></a>
             </ul>
         </div>
@@ -35,18 +35,15 @@
         <div class="profile">
             <img src="images/snowman.jpeg" alt="">
         </div>
-        <div class="name">Join the Yuki Club</div>
+        <div class="name">Let us help you </div>
         <form class="login-form">
             <div class="input-field">
-                <i class="fa-solid fa-user"></i><input type="text" name="email" id="userName" placeholder="Email" required>
+                <i class="fa-solid fa-envelope"></i><input type="text" name="email" id="username" placeholder="Email" required>
             </div>
-            <div class="input-field"> 
-                <i class="fa-solid fa-key"></i><input type="password" name="password" id="pwd" placeholder="Password" required>
-             </div>
-              <button class="login">Login</button>
+             <button class="reset">Reset Password</button>
         </form>
         <div class="login-info"> 
-            <a href="reset.html">Forgot password?</a> or <a href="register.html">Join Now</a> 
+            <a href="register.html">Join Now</a> or <a href="login.html">Login</a> 
         </div>
     </div>
     <!--footer section start here-->
@@ -64,7 +61,6 @@
             Snowman @ 2023
         </p>
     </div>
-    <script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
-    <script src="menu.js"></script>
-    <script src="login.js"></script>
+<script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
+<script src="menu.js"></script>
 </body>
