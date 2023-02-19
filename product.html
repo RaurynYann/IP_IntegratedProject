@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Filter And Search</title>
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="header">
-        <div class="logo">
-            <img href="home.html" src="images/logo_trans1.png">
-        </div>
-        <div class="navbar">
-            <ul id="nav">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="product.html">Product</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li class="cart" id="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span id="cart-count">0</span></a></li>
-                <a href="#" id="close"><i class="fa fa-times" ></i></a>
-            </ul>
-        </div>
-        <div class="menu">
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-            <i id="bar" class="fa-solid fa-bars"></i>
-        </div>
-    </div>
-    <div class="searchpage">
-      <div id="search-container">
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Search product name here.."
-        />
-        <button id="search">Search</button>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Filter And Search</title>
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+      <div class="logo">
+          <img href="home.html" src="images/logo.png">
       </div>
-      <div id="buttons">
-        <button class="button-value" onclick="filterProduct('all')">All</button>
-        <button class="button-value" onclick="filterProduct('Necklaces')">
-          Necklaces
-        </button>
-        <button class="button-value" onclick="filterProduct('Pendants')">
-          Pendants
-        </button>
-        <button class="button-value" onclick="filterProduct('Rings')">
-          Rings
-        </button>
-        <button class="button-value" onclick="filterProduct('Earrings')">
-          Earrings
-        </button>
+      <div class="navbar">
+          <ul id="nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li class="cart" id="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span id="cart-count">0</span></a></li>
+              <a href="#" id="close"><i class="fa fa-times" ></i></a>
+          </ul>
       </div>
-      <div id="products"></div>
+      <div class="menu">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+  </div>
+  <div class="searchpage">
+    <div id="search-container">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search product name here.."
+      />
+      <button id="search">Search</button>
     </div>
-        <!--footer section start here-->
-        <div class="footer">
-            <div class="social">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href=""><i class="fa fa-snapchat-ghost"></i></a>
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-            </div>
-            <ul class="list">
-              <li><a href="#">Customer Service</a></li>
-              <li><a href="#">Membership</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">
-                Snowman @ 2023
-            </p>
-        </div>
-    <!-- Script -->
-    <script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
-    <script src="menu.js"></script>
-    <script src="filter.js"></script>
-  </body>
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('all')">All</button>
+      <button class="button-value" onclick="filterProduct('Necklaces')">
+        Necklaces
+      </button>
+      <button class="button-value" onclick="filterProduct('Pendants')">
+        Pendants
+      </button>
+      <button class="button-value" onclick="filterProduct('Rings')">
+        Rings
+      </button>
+      <button class="button-value" onclick="filterProduct('Earrings')">
+        Earrings
+      </button>
+    </div>
+    <div id="products"></div>
+  </div>
+      <!--footer section start here-->
+  <div class="footer">
+      <div class="social">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">
+          Snowman @ 2023
+      </p>
+  </div>
+  <!-- Script -->
+  <script src="https://kit.fontawesome.com/a91d529c7e.js"></script>
+  <script src="menu.js"></script>
+  <script src="filter.js"></script>
+</body>
