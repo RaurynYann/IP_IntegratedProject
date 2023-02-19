@@ -268,7 +268,7 @@ a#close{
     cursor: pointer;
 }
 .active {
-    background-color: #cccccd;
+    background-color: #e4e4e4;
     color: #ffffff;
 }
 #products {
@@ -309,6 +309,11 @@ a#close{
     display: none;
   }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 556c59803c2f726695bdadcf5bbb959b3f844283
 /* Product Details Section*/
 .pro-container {
     display: flex;
@@ -540,6 +545,7 @@ cursor: pointer;
     background: #fff;
     text-align: center;
 }
+
 .story h2{
     font-size: 45px;
 }
@@ -562,7 +568,13 @@ cursor: pointer;
 .how-to p{
     font-size: 20px;
 }
+<<<<<<< HEAD
 
+=======
+.how-to img{
+    width: 3%;
+}
+>>>>>>> 556c59803c2f726695bdadcf5bbb959b3f844283
 /*contact form*/
 .contact{
     display: flex;
@@ -897,6 +909,7 @@ cursor: pointer;
     opacity: 0.8;
 }
 .footer ul li a:hover{
+    color: rgb(255, 255, 255);
     opacity: 1;
 }
 .footer .copyright{
@@ -1346,7 +1359,7 @@ color: #1c1c1c;
         right: -200px;
         height: 100vh;
         width: 200px;
-        background-color: #525253;
+        background-color: #ddddde;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 70px 0 0 10px;
         transition: 0.3s;
@@ -1362,7 +1375,7 @@ color: #1c1c1c;
         align-items: center;
     }
     .menu i{
-        color: #777;
+        color: #8d8c8c;
         font-size: 20px;
         padding-left: 20px;
     }
