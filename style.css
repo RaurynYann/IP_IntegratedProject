@@ -214,7 +214,8 @@ a#close{
 }
 
 .pro img{
-    width: 100%;
+    max-width: 230px;
+    height: 230px;
     border-radius: 20px;
     margin-bottom: 15px;
 }
