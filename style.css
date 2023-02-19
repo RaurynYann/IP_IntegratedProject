@@ -964,6 +964,50 @@ cursor: pointer;
     font-size: 13px;
     color: #aaa;
 }
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq h2, h3 {
+margin-top: 30px;
+}
+
+.faq h2 {
+font-size: 36px;
+}
+
+.faq h3 {
+font-size: 28px;
+}
+
+.faq dl {
+margin: 0;
+padding: 0;
+}
+    
+.faq .question {
+cursor: pointer;
+font-weight: bold;
+margin-bottom: 5px;
+position: relative;
+margin-top: 10px;
+font-size: 22px;
+}
+
+.faq .answer {
+margin-left: 20px;
+font-size: 19px;
+}
+
+.ordering, .payment, .shipping, .return-policy {
+margin-bottom: 40px;
+}
+
+.ordering, .payment, .shipping, .return-policy dt {
+color: #1c1c1c;
+}
+
 
 @media (max-width: 1320px){
     .text h2{
