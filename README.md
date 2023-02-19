@@ -73,7 +73,7 @@ From this section, is going to describing about my testing process such as:
    1. when click on the more about button will link to about page
 
 6. Search bar:
-   1. when typr the product name the search function will work or not.
+   1. when type the product name the search function will work or not.
    2. when click on the product category will appear the correct product or not.
 
 7. add  to cart:
@@ -81,13 +81,13 @@ From this section, is going to describing about my testing process such as:
 
 ## Credits
 - Plenty (https://www.plenty.my/pages/jewelry-care)
-  + Jewelry care
+  + Jewelry Care Section Icons
 - Swarovski (https://www.swarovski.com/en-MY/c-01/Categories/Jewelry/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55BorjuhfmQPqGOtZtb17SCWr4hT0iLO6q622dGX54-dFsjH-wf5pYaAikjEALw_wcB&gclsrc=aw.ds)
-  + Website design
+  + Website Design
 - Pandora (https://sg.pandora.net/en/gifts/?topnavigation=true&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55bwW3Pu-CihequeRQVeYOELfVT8Fa5DXi-SPmDLpisqnwM227gUTsaAneiEALw_wcB&gclsrc=aw.ds#position=top&src=categorySearch)
-  + website design
+  + Website Design
 - Picrew (https://picrew.me/)
-  + Avatar customisation
+  + Avatar Customisation
 
 ## Media
 The photos used in this website were obtained from:
