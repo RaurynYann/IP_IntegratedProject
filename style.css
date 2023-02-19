@@ -414,10 +414,8 @@ a#close{
 }
 .box.left{
     left: 15%;
-    align-items: center;
 }
 .box.right{
-    align-items: center;
     right: 15%;
 }
 .box h2{
