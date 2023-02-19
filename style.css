@@ -679,6 +679,7 @@ cursor: pointer;
     background: #fff;
     text-align: center;
 }
+
 .story h2{
     font-size: 45px;
 }
@@ -700,6 +701,9 @@ cursor: pointer;
 }
 .how-to p{
     font-size: 20px;
+}
+.how-to img{
+    width: 3%;
 }
 /*contact form*/
 .contact{
