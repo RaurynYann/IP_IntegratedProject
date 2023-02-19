@@ -78,6 +78,18 @@ if (cartItems && cartItems.length > 0) {
   // Display the order subtotal and total
   orderSubtotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
   orderTotalElement.innerText = `$${orderSubtotal.toFixed(2)}`;
+  let checkoutButton = document.querySelector('.checkout a');
+
+  checkoutButton.addEventListener('click', function() {
+  // Clear the cart items in local storage and the cart view
+  localStorage.removeItem('cartItems');
+  let cartItemsContainer = document.querySelector('.cart-items');
+  cartItemsContainer.innerHTML = '';
+  
+  // Display a success message to the user
+  alert('Payment was successful. Thank you for your purchase!');
+});
+
   // Add functionality to the trash icons, plus buttons, and minus buttons
   let trashIcons = document.querySelectorAll('.fa-trash');
   for (let i = 0; i < trashIcons.length; i++) {

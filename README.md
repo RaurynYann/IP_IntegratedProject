@@ -55,7 +55,7 @@ From this section, is going to describing about my testing process such as:
    1. Go to the 'Contact page
    2. Try to submit an empty form, and verify that an error message about the required fields appears.
    3. Try to type in word to a number box and make sure the box did not fill in.
-   4. Try to type in different typr of input to the form and submit it to check whether can submit in or not.
+   4. Try to type in different type of input to the form and submit it to check whether can submit in or not.
 
 2. Navegation bar:
    1. Try to click to every button to check whether it can link to the correct page or not.
