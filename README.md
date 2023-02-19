@@ -47,6 +47,9 @@ In this section, I will go over the different parts of my project, and describe 
 - Jigsaw Validator(https://jigsaw.w3.org/css-validator/)
    + The project uses **Jigsaw Validator** to check whether have error in the css file or not.
 
+- ChatGPT (https://chat.openai.com/chat)
+   + The project uses **ChatGPT** to check the code whether have error or not
+
 
 ## Testing
 From this section, is going to describing about my testing process such as:
@@ -87,6 +90,9 @@ From this section, is going to describing about my testing process such as:
 - Pandora (https://sg.pandora.net/en/gifts/?topnavigation=true&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55bwW3Pu-CihequeRQVeYOELfVT8Fa5DXi-SPmDLpisqnwM227gUTsaAneiEALw_wcB&gclsrc=aw.ds#position=top&src=categorySearch)
   + Website Design
 - Picrew (https://picrew.me/)
+  + Avatar customisation
+- Flaticon (https://www.flaticon.com/free-icon/premium_3495922?k=1676787799579&sign-up=google&log-in=google)
+   + Icon for the website
   + Avatar Customisation
 
 ## Media
