@@ -268,7 +268,7 @@ a#close{
     cursor: pointer;
 }
 .active {
-    background-color: #cccccd;
+    background-color: #e4e4e4;
     color: #ffffff;
 }
 #products {
@@ -1310,7 +1310,7 @@ color: #1c1c1c;
         right: -200px;
         height: 100vh;
         width: 200px;
-        background-color: #525253;
+        background-color: #ddddde;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 70px 0 0 10px;
         transition: 0.3s;
@@ -1326,7 +1326,7 @@ color: #1c1c1c;
         align-items: center;
     }
     .menu i{
-        color: #777;
+        color: #8d8c8c;
         font-size: 20px;
         padding-left: 20px;
     }
