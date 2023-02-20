@@ -96,6 +96,10 @@ From this section, is going to describing about my testing process such as:
 - Flaticon (https://www.flaticon.com/free-icon/premium_3495922?k=1676787799579&sign-up=google&log-in=google)
    + Icon for the website
   + Avatar Customisation
+- Wallpapercave (https://wallpapercave.com/hd-white-winter-wallpapers)
+  + background picture
+- Shutterstock (https://www.shutterstock.com/zh/image-photo/jewelry-branding-elegance-sale-concept-winter-1555253033)
+  + Background picture 
 
 ## Media
 The photos used in this website were obtained from:
